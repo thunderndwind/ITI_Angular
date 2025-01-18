@@ -1,0 +1,8 @@
+<div class="search-container">
+    <input [(ngModel)]="searchTerm" placeholder="Search by email" />
+
+    <button (click)="onSearch()">Search</button>
+    @if (hasSearched) {
+    <button (click)="onReset()">Reset</button>
+    }
+</div>

@@ -1,0 +1,17 @@
+<div
+    class="d-flex justify-content-between align-items-center p-2 mb-2 border rounded"
+    [class.bg-light]="task.isDone">
+    <span [class.text-decoration-line-through]="task.isDone">
+        {{ task.name }}
+    </span>
+    <div>
+        @if (!task.isDone) {
+        <button class="btn btn-success btn-sm me-2" (click)="markDone()">
+            <i class="bi bi-check"></i> Done
+        </button>
+        }
+        <button class="btn btn-danger btn-sm" (click)="deleteTask()">
+            <i class="bi bi-trash"></i> Delete
+        </button>
+    </div>
+</div>

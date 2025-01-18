@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "role": "admin",
+        "username": "john_doe",
+        "email": "john.doe.admin@example.com",
+        "phone": "123-456-7890",
+        "birthdate": "1985-05-15"
+    },
+    {
+        "id": 2,
+        "role": "moderator",
+        "username": "john_doe",
+        "email": "john.doe.mod@example.com",
+        "phone": "123-456-7890",
+        "birthdate": "1985-05-15"
+    },
+    {
+        "id": 3,
+        "role": "User",
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "phone": "234-567-8901",
+        "birthdate": "1990-08-25"
+    },
+    {
+        "id": 4,
+        "role": "user",
+        "username": "alice_wonder",
+        "email": "alice.wonder@example.com",
+        "phone": "345-678-9012",
+        "birthdate": "1992-03-12"
+    },
+    {
+        "id": 5,
+        "role": "admin",
+        "username": "bob_builder",
+        "email": "bob.builder@example.com",
+        "phone": "456-789-0123",
+        "birthdate": "1988-11-30"
+    },
+    {
+        "id": 6,
+        "role": "user",
+        "username": "charlie_brown",
+        "email": "charlie.brown@example.com",
+        "phone": "567-890-1234",
+        "birthdate": "1995-07-20"
+    }
+]
